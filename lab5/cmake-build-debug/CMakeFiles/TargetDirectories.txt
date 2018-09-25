@@ -1,3 +1,3 @@
-Z:/study/labs-kpiyap/lab5/cmake-build-debug/CMakeFiles/lab5.dir
-Z:/study/labs-kpiyap/lab5/cmake-build-debug/CMakeFiles/edit_cache.dir
-Z:/study/labs-kpiyap/lab5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/labs-kpiyap/lab5/cmake-build-debug/CMakeFiles/lab5.dir
+E:/labs-kpiyap/lab5/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/labs-kpiyap/lab5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
