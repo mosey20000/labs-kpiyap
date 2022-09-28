@@ -17,9 +17,6 @@ Tool::~Tool() {
     Manufacturer_.clear();
 }
 
-void Tool::PutData() const {
-    std::cout << "Tool weight is " << Weight_ << std::endl;
-}
 
 double Tool::GetWeight() const {
     return Weight_;
@@ -27,4 +24,10 @@ double Tool::GetWeight() const {
 
 std::string Tool::GetManufacturer() const {
     return Manufacturer_;
+}
+
+void Tool::Print () const {
+    std::cout << "Tool characteristics:" << std::endl;
+    std::cout << "Weight is " << Weight_ << std::endl;
+    std::cout << "Manufacturer is " << Manufacturer_ << std::endl;
 }

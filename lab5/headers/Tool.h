@@ -16,9 +16,13 @@ public:
     Tool() = default;
     ~Tool();
 
+    virtual void Print() const;
     void PutData() const;
     double GetWeight() const;
     std::string GetManufacturer() const;
+
+    void SetWeight(double Weight) { Weight_ = Weight; };
+    void SetManufacturer(std::string Manufacturer) { Manufacturer_ = Manufacturer; };
 };
 
 

@@ -58,7 +58,10 @@
 				0,
 				1,
 				3,
-				5
+				5,
+				7,
+				9,
+				11
 			]
 		}
 	],
@@ -98,7 +101,10 @@
 				0,
 				1,
 				3,
-				5
+				5,
+				7,
+				9,
+				11
 			]
 		},
 		{
@@ -107,7 +113,10 @@
 			[
 				2,
 				4,
-				6
+				6,
+				8,
+				10,
+				12
 			]
 		}
 	],
@@ -144,12 +153,45 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "ElectricSaw.cpp",
+			"path" : "sources/ElectricSaw.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "ElectricSaw.h",
+			"path" : "headers/ElectricSaw.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sources/Jigsaw.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "headers/Jigsaw.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sources/ElectricJigSaw.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "headers/ElectricJigSaw.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sources/CircularSaw.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "headers/CircularSaw.h",
 			"sourceGroupIndex" : 1
 		}
 	],

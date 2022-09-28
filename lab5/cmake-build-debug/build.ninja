@@ -67,11 +67,29 @@ build CMakeFiles/lab5.dir/sources/Saw.cpp.obj: CXX_COMPILER__lab5_Debug D$:/stud
   OBJECT_DIR = CMakeFiles\lab5.dir
   OBJECT_FILE_DIR = CMakeFiles\lab5.dir\sources
 
-build CMakeFiles/lab5.dir/ElectricSaw.cpp.obj: CXX_COMPILER__lab5_Debug D$:/study/labs-kpiyap/lab5/ElectricSaw.cpp || cmake_object_order_depends_target_lab5
-  DEP_FILE = CMakeFiles\lab5.dir\ElectricSaw.cpp.obj.d
+build CMakeFiles/lab5.dir/sources/ElectricSaw.cpp.obj: CXX_COMPILER__lab5_Debug D$:/study/labs-kpiyap/lab5/sources/ElectricSaw.cpp || cmake_object_order_depends_target_lab5
+  DEP_FILE = CMakeFiles\lab5.dir\sources\ElectricSaw.cpp.obj.d
   FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles\lab5.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab5.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab5.dir\sources
+
+build CMakeFiles/lab5.dir/sources/Jigsaw.cpp.obj: CXX_COMPILER__lab5_Debug D$:/study/labs-kpiyap/lab5/sources/Jigsaw.cpp || cmake_object_order_depends_target_lab5
+  DEP_FILE = CMakeFiles\lab5.dir\sources\Jigsaw.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\lab5.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab5.dir\sources
+
+build CMakeFiles/lab5.dir/sources/ElectricJigSaw.cpp.obj: CXX_COMPILER__lab5_Debug D$:/study/labs-kpiyap/lab5/sources/ElectricJigSaw.cpp || cmake_object_order_depends_target_lab5
+  DEP_FILE = CMakeFiles\lab5.dir\sources\ElectricJigSaw.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\lab5.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab5.dir\sources
+
+build CMakeFiles/lab5.dir/sources/CircularSaw.cpp.obj: CXX_COMPILER__lab5_Debug D$:/study/labs-kpiyap/lab5/sources/CircularSaw.cpp || cmake_object_order_depends_target_lab5
+  DEP_FILE = CMakeFiles\lab5.dir\sources\CircularSaw.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\lab5.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab5.dir\sources
 
 
 # =============================================================================
@@ -81,7 +99,7 @@ build CMakeFiles/lab5.dir/ElectricSaw.cpp.obj: CXX_COMPILER__lab5_Debug D$:/stud
 #############################################
 # Link the executable lab5.exe
 
-build lab5.exe: CXX_EXECUTABLE_LINKER__lab5_Debug CMakeFiles/lab5.dir/main.cpp.obj CMakeFiles/lab5.dir/sources/Tool.cpp.obj CMakeFiles/lab5.dir/sources/Saw.cpp.obj CMakeFiles/lab5.dir/ElectricSaw.cpp.obj
+build lab5.exe: CXX_EXECUTABLE_LINKER__lab5_Debug CMakeFiles/lab5.dir/main.cpp.obj CMakeFiles/lab5.dir/sources/Tool.cpp.obj CMakeFiles/lab5.dir/sources/Saw.cpp.obj CMakeFiles/lab5.dir/sources/ElectricSaw.cpp.obj CMakeFiles/lab5.dir/sources/Jigsaw.cpp.obj CMakeFiles/lab5.dir/sources/ElectricJigSaw.cpp.obj CMakeFiles/lab5.dir/sources/CircularSaw.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\lab5.dir

@@ -5,8 +5,11 @@
 #ifndef LAB5_ELECTRICSAW_H
 #define LAB5_ELECTRICSAW_H
 
+#include "Saw.h"
 
-class ElectricSaw {
+
+class ElectricSaw : virtual public Saw {
+protected:
 
 };
 

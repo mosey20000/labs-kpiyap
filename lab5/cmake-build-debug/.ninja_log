@@ -1,0 +1,22 @@
+# ninja log v5
+70	359	6860490051750350	CMakeFiles/lab5.dir/sources/ElectricSaw.cpp.obj	e06980fef85f7a2e
+0	1436	6860490062478372	CMakeFiles/lab5.dir/main.cpp.obj	fffa2a06469459e8
+36	1504	6860490063188472	CMakeFiles/lab5.dir/sources/Saw.cpp.obj	f8003b23010e9130
+54	1533	6860490063478368	CMakeFiles/lab5.dir/sources/Tool.cpp.obj	863fc78c4708fd41
+1533	1870	6860490066718373	lab5.exe	86a40029bc439a7e
+1	290	6860510815160184	build.ninja	1b4527b4426f1762
+87	373	6860510819205861	CMakeFiles/lab5.dir/sources/CircularSaw.cpp.obj	931f71fe457fda67
+49	376	6860510819195928	CMakeFiles/lab5.dir/sources/ElectricJigSaw.cpp.obj	e38d9fa170a87de0
+41	1366	6860510829145937	CMakeFiles/lab5.dir/sources/ElectricSaw.cpp.obj	e06980fef85f7a2e
+32	1668	6860510832165831	CMakeFiles/lab5.dir/main.cpp.obj	fffa2a06469459e8
+23	1689	6860510832375868	CMakeFiles/lab5.dir/sources/Saw.cpp.obj	f8003b23010e9130
+69	1766	6860510833155837	CMakeFiles/lab5.dir/sources/Jigsaw.cpp.obj	ac9ecf6a95bf1141
+7	1791	6860510833405796	CMakeFiles/lab5.dir/sources/Tool.cpp.obj	863fc78c4708fd41
+5	1286	6860511090530584	CMakeFiles/lab5.dir/main.cpp.obj	fffa2a06469459e8
+1287	1527	6860511092850558	lab5.exe	bf23cc65f8df1a47
+52	1267	6860514568896310	CMakeFiles/lab5.dir/sources/ElectricSaw.cpp.obj	e06980fef85f7a2e
+5	1552	6860514571736177	CMakeFiles/lab5.dir/main.cpp.obj	fffa2a06469459e8
+34	1573	6860514571956219	CMakeFiles/lab5.dir/sources/Saw.cpp.obj	f8003b23010e9130
+26	1609	6860514572316176	CMakeFiles/lab5.dir/sources/Tool.cpp.obj	863fc78c4708fd41
+43	1635	6860514572586162	CMakeFiles/lab5.dir/sources/Jigsaw.cpp.obj	ac9ecf6a95bf1141
+1635	1883	6860514574936429	lab5.exe	bf23cc65f8df1a47

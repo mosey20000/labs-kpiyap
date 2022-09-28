@@ -12,10 +12,13 @@ protected:
     double BladeLength_;
 public:
     Saw(double BladeLength, double Weight, std::string Manufacturer);
+    Saw() = default;
     ~Saw();
 
-    void PutData();
-    void GetBladeLength();
+    void Print() const override;
+    double GetBladeLength() const;
+
+    void SetBladeLength(double BladeLength) { BladeLength_ = BladeLength; };
 };
 
 
