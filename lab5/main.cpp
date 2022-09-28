@@ -1,12 +1,17 @@
 #include <iostream>
 
-#include "headers/Saw.h"
-#include "headers/Tool.h"
+
+//
+//      Tool
+//       ||
+//      Saw          ---------> Jigsaw          \
+//       ||                                       --- > CircularSaw
+//      ElecticSaw   ---------> ElectricJigSaw  /
+//
+
+#include "headers/CircularSaw.h"
 
 int main() {
-    Saw chainsaw(400, 1500, "Bosh");
-    chainsaw.SetBladeLength(500);
-    chainsaw.Print();
-    double weight = chainsaw.GetWeight();
-    std::cout << "Weight === " << weight;
+    CircularSaw Bosch(120, 1400, "Alpine", 20, 180, 220, 360);
+    std::cout << Bosch;
 }

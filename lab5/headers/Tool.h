@@ -16,8 +16,7 @@ public:
     Tool() = default;
     ~Tool();
 
-    virtual void Print() const;
-    void PutData() const;
+    friend std::ostream& operator << (std::ostream& out, Tool& object);
     double GetWeight() const;
     std::string GetManufacturer() const;
 

@@ -17,6 +17,11 @@ public:
     Jigsaw(double BladeLength, double Weight, std::string Manufacturer, double Width);
     Jigsaw() = default;
     ~Jigsaw();
+
+    void SetWidth(double Width) { Width_ = Width; };
+    double GetWidth () const;
+
+    friend std::ostream& operator << (std::ostream& out, Jigsaw& object);
 };
 
 

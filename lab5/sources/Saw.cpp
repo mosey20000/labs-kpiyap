@@ -13,14 +13,19 @@ Saw::~Saw() {
     Manufacturer_.clear();
 }
 
-void Saw::Print() const {
+std::ostream& operator << (std::ostream& out, Saw& object) {
     std::cout << "Saw characteristics:" << std::endl;
-    std::cout << "Weight is " << Weight_ << std::endl;
-    std::cout << "Manufacturer is " << Manufacturer_ << std::endl;
-    std::cout << "BladeLength is " << BladeLength_ << std::endl;
+    std::cout << "Weight is " << object.Weight_ << std::endl;
+    std::cout << "Manufacturer is " << object.Manufacturer_ << std::endl;
+    std::cout << "BladeLength is " << object.BladeLength_ << std::endl;
 
+    return out;
 }
 
 double Saw::GetBladeLength() const {
     return BladeLength_;
+}
+
+void Saw::SetBladeLength(double BladeLength) {
+    BladeLength_ = BladeLength;
 }

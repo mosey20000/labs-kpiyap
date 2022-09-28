@@ -26,8 +26,10 @@ std::string Tool::GetManufacturer() const {
     return Manufacturer_;
 }
 
-void Tool::Print () const {
+std::ostream& operator <<(std::ostream &out, Tool& object){
     std::cout << "Tool characteristics:" << std::endl;
-    std::cout << "Weight is " << Weight_ << std::endl;
-    std::cout << "Manufacturer is " << Manufacturer_ << std::endl;
+    std::cout << "Weight is " << object.Weight_ << std::endl;
+    std::cout << "Manufacturer is " << object.Manufacturer_ << std::endl;
+
+    return out;
 }

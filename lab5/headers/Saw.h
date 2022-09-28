@@ -15,10 +15,10 @@ public:
     Saw() = default;
     ~Saw();
 
-    void Print() const override;
+    friend std::ostream& operator << (std::ostream& out, Saw& object);
     double GetBladeLength() const;
 
-    void SetBladeLength(double BladeLength) { BladeLength_ = BladeLength; };
+    void SetBladeLength(double BladeLength);
 };
 
 
