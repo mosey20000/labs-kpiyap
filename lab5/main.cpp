@@ -1,12 +1,10 @@
 #include <iostream>
 
 
-//
-//      Tool
-//       ||
-//      Saw          ---------> Jigsaw          \
-//       ||                                       --- > CircularSaw
-//      ElecticSaw   ---------> ElectricJigSaw  /
+
+//            /   Saw          --------->     Jigsaw      \
+//  Tool ---                                                 --- > CircularSaw
+//             \  ElecticSaw   ---------> ElectricJigSaw  /
 //
 
 #include "headers/CircularSaw.h"
