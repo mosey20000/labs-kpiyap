@@ -14,6 +14,13 @@ Date::Date()
 	this->year = time->tm_year + BASE_YEAR;
 }
 
+Date::Date(int day, int month, int year)
+{
+	this->day = day;
+	this->month = month;
+	this->year = year;
+}
+
 
 void Date::printDate()
 {

@@ -25,7 +25,7 @@ public:
     }
 
     void push(Type numValue) {
-        if (end - begin >= 10) throw "List is full";
+        if (end - begin >= 5) throw "List is full";
         *end++ = numValue;
         size++;
     }
@@ -61,7 +61,7 @@ int main() {
     {
         while (true)
         {
-            //std::cout << "g - pop, p - push, e - check isEmpty, s - print"<< std::endl;
+            std::cout << "g - pop, p - push, e - check isEmpty, s - print"<< std::endl;
             switch (getchar())
             {
                 case 'g':

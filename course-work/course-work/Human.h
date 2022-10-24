@@ -1,20 +1,18 @@
 #pragma once
 
+#include "Name.h"
+#include "Date.h"
+
 #include <iostream>
 #include <string>
 
 class Human
 {
 protected:
-	std::string name;
+	Date birthdate;
+	Name name;
 public:
-	Human() = default;
-	Human(std::string name);
+	Human(Date birthdate, Name name);
 	~Human() = default;
-
-	void setName(std::string name);
-	std::string getName();
-
-	void printData();
 };
 

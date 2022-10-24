@@ -2,14 +2,13 @@
 
 #include <iostream>
 
-#include "Date.h"
-#include "Marks.h"
+#include "Name.h"
 
 
 int main() {
-	Date data();
-	std::string subject = "Programming";
-	Marks mark(subject, 10);
-	mark.printMark();
+	Name name("Yahor", "Maksimchik", "Valerievich");
+	name.putFullname();
+	std::cout << std::endl;
+	name.putName();
 	return 0;
 }

@@ -1,22 +1,27 @@
 #pragma once
+
 #include "Human.h"
 #include "Marks.h"
+#include "StudentInfo.h"
 
+
+#include <iostream>
+#include <string>
 #include <vector>
 
 class Student: public Human
 {
-protected:
-	std::string speciality;
+private:
 	std::vector<Marks> marks;
-	bool getSchoolarship;
+	StudentInfo information;
+	// Name name;
+	// Date birthdate;
 public:
-	Student() = default;
-	Student(std::string name, std::string speciality, bool getSchoolarship): 
-		Human(name), speciality(speciality), getSchoolarship(getSchoolarship) {};
+	Student(StudentInfo information, Name name, Date birthdate):
+		Human(birthdate, name), information(information) {};
+
 	~Student() = default;
 
-	void setMark(Marks mark);
 
 };
 

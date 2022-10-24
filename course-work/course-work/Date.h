@@ -15,6 +15,7 @@ private:
 	int year;
 public:
 	Date();
+	Date(int day, int month, int year);
 	~Date() = default;
 
 	void printDate();
