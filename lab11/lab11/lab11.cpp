@@ -19,7 +19,7 @@ int main() {
 
 	std::string streetName = "ul. Mira";
 
-	Flat flat1(20, 2, "Egor");
+	Flat flat1(20, 2, "Mihail");
 	Flat flat2(12, 4, "Liana");
 	Flat flat3(31, 5, "Nikita");
 	Flat flat4(2, 1, "Evgeniy");

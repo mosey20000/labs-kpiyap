@@ -9,12 +9,14 @@
 template <class Type>
 class List {
     static inline Type value[5] = {0, 0, 0, 0, 0};
+    int size;
     Type* begin;
     Type* end;
 public:
     List() {
         begin = value;
         end = value;
+        size = 0;
     }
 
     Type pop() {
@@ -25,10 +27,17 @@ public:
     void push(Type numValue) {
         if (end - begin >= 10) throw "List is full";
         *end++ = numValue;
+        size++;
     }
 
     bool isEmpty() {
         return begin == end;
+    }
+
+    void print() {
+        for (int i = 0; i < size; i++) {
+            std::cout << value[i] << " ";
+        }
     }
 };
 
@@ -52,6 +61,7 @@ int main() {
     {
         while (true)
         {
+            //std::cout << "g - pop, p - push, e - check isEmpty, s - print"<< std::endl;
             switch (getchar())
             {
                 case 'g':
@@ -70,6 +80,9 @@ int main() {
                     break;
                 case '\n':
                     break;
+                case 's':
+                    q.print();
+                    break;
                 default:
                     std::cout << "you can write 'a', 'd' or 'e' character" << std::endl;
                     break;
@@ -82,10 +95,11 @@ int main() {
             std::cout << "Already empty" << std::endl;
         else if (!strcmp(msg, LIST_FULL_EXCEPTION))
             std::cout << "Already full" << std::endl;
-        else
-            std::unexpected();
 
         return 0;
+    }
+    catch(...) {
+        std::unexpected();
     }
 
     return 0;
