@@ -22,6 +22,6 @@ public:
 
 	~Student() = default;
 
-
+	void setMark(Marks mark);
 };
 
