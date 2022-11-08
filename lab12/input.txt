@@ -1,0 +1,9 @@
+two=2
+five=5
+twothousand=2000
+onehundred=100
+six=6
+seven=7
+eight=8
+ten=10
+two=2

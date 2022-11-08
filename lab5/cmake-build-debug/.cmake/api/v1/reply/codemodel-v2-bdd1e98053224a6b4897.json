@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "Z:/study/labs-kpiyap/lab5/cmake-build-debug",
-		"source" : "Z:/study/labs-kpiyap/lab5"
+		"build" : "E:/labs-kpiyap/lab5/cmake-build-debug",
+		"source" : "E:/labs-kpiyap/lab5"
 	},
 	"version" : 
 	{
