@@ -93,35 +93,58 @@ public:
 };
 
 
+
 int main(int args, char* argv[]) {
 
     List<std::string> list;
-    try {
-        list.push_back("First");
-        list.push_back("String2");
-        list.push_back("String3");
-        list.push_back("String4");
-        list.push_back("String5");
-        list.push_back("Last");
-        
-        list.print();
 
-        list.remove_first();
-        list.remove_last();
+    while (true) {
+        try {
+            std::cout << "\n\n\n";
+            std::cout << "Menu: \n";
+            std::cout << "1. push_back\n";
+            std::cout << "2. remove_first\n";
+            std::cout << "3. remove_last\n";
+            std::cout << "4. print\n";
+            std::cout << "5. find [index]\n";
+            int option;
+            std::cin >> option;
 
-        list.print();
-
-        std::cout << list[2]->value << std::endl;
-    } catch (const char* message) {
-        std::cout << "Error: " << message << std::endl;
+            switch (option) {
+            case 1: {
+               std::cout << "Enter value (std::string): ";
+               std::string value;
+               std::cin >> value;
+               list.push_back(value);
+               break;
+            }
+            case 2: {
+                list.remove_first();
+                break;
+            }
+            case 3: {
+                list.remove_last();
+                break;
+            }
+            case 4: {
+                list.print();
+                break;
+            }
+            case 5: {
+                int index;
+                std::cout << "Enter index: ";
+                std::cin >> index;
+                std::cout << list[index];
+                break;
+            }
+            default:
+               break;
+            }
+        } catch (const char* message) {
+           std::cout << "Error: " << message << std::endl;
+        }
     }
 
-    List<int> list2;
-    try {
-        list2.print();
-    } catch (const char* message) {
-        std::cout << "Error: " << message << std::endl;
-    }
 
     return 0;
 }
