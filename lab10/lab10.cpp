@@ -80,13 +80,15 @@ public:
 
     Node<T>* operator [] (const int index) {
         if (isEmpty())
-        return nullptr;
+            throw "List is empty";
 
         Node<T>* p = first;
         for (int i = 0; i < index; i++) {
             p = p->next;
-            if (!p) return nullptr;
+            if (!p) throw "Boundary Exception";
         }
+
+
 
         return p;
     }
@@ -134,7 +136,11 @@ int main(int args, char* argv[]) {
                 int index;
                 std::cout << "Enter index: ";
                 std::cin >> index;
-                std::cout << list[index];
+                std::cout << list[index]->value;
+                break;
+            }
+            case 9: {
+                exit(0);
                 break;
             }
             default:

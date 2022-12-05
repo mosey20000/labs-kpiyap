@@ -1,2 +1,2 @@
-Detail 100 Wolfram
-Detail 200 Wood
+Sword 156 174
+Fhahsfj 100 200
